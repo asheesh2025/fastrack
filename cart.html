@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        #navbar1{
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+            color: white;
+            font-size: 10px;
+            border: 0.1px solid white;
+        }
+        #block1{
+            display: flex;
+        }
+        #block2{
+            display: flex;
+        }
+        #block1 div{
+            margin: 15px;
+        }
+        #block2 div{
+            margin: 15px;
+        }
+        #navbar2{
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+            color: white;
+            font-size: 15px;
+            text-align: center;
+        }
+        #block3{
+            display: flex;
+        }
+        #block4{
+            display: flex;
+        }
+        #block3 div{
+            margin: 15px;
+        }
+        #block4 div{
+            margin: 15px;
+        }
+        .img_navbar{
+            width: 35px;
+            height: 25px;
+            border-radius: 100%;
+        }
+        #bottombar{
+            background-color: black;
+            color: white;
+            display: flex;
+            text-align: left;
+            justify-content: space-around;
+        }
+        .bottombar_img{
+            width: 100px;
+            height: 35px;
+        }
+        #bottombar div{
+            margin: 5px;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-style: oblique;
+            font-size: 25px;
+            font-weight: bolder;
+        }
+    #show_cart{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    row-gap: 50px;
+    column-gap: 25px;
+  }
+  #total{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #count{
+    font-size: 25px;
+  }
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="total">
+        <div id="toal_price"></div>
+        <div id="count1"></div>
+    </div>
+    <div id="show_cart"></div>
+    <div id="bottombar"></div>
+</body>
+</html>
+<script src="./script/cart.js" type="module"></script>

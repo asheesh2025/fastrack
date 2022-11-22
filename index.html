@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        #navbar1{
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+            color: white;
+            font-size: 10px;
+            border: 0.1px solid white;
+        }
+        #block1{
+            display: flex;
+        }
+        #block2{
+            display: flex;
+        }
+        #block1 div{
+            margin: 15px;
+        }
+        #block2 div{
+            margin: 15px;
+        }
+        #navbar2{
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+            color: white;
+            font-size: 15px;
+            text-align: center;
+        }
+        #block3{
+            display: flex;
+        }
+        #block4{
+            display: flex;
+        }
+        #block3 div{
+            margin: 15px;
+        }
+        #block4 div{
+            margin: 15px;
+        }
+        .img_navbar{
+            width: 35px;
+            height: 25px;
+            border-radius: 100%;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-style: oblique;
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        #slideimg{
+            width: 100%;
+            height: 450px;
+        }
+        #bottombar{
+            background-color: black;
+            color: white;
+            display: flex;
+            text-align: left;
+            justify-content: space-around;
+        }
+        .bottombar_img{
+            width: 100px;
+            height: 35px;
+        }
+        #bottombar div{
+            margin: 5px;
+        }
+        #fastrack_ess{
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            grid-template-rows: auto;
+            margin: 100px;
+            margin-top: 50px;
+        }
+        #fastrack_ess img{
+            width: 150px;
+        }
+        #itemlist{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    
+  }
+  #add_to_cart{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+  }
+  #count{
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+    </style>
+</head>
+<body>
+    
+    <div id="navbar"></div>
+    <div id="slideshow">
+        <img src="https://www.fastrack.in/wps/wcm/connect/fastrack/49bd3582-1093-4beb-915b-6367790db235/desktop/2500X400.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-49bd3582-1093-4beb-915b-6367790db235-desktop-o3-WiIm" alt="">
+        <!--Slideshow here-->
+    </div>
+    <h1>FASTRACK ESSENTIALS</h1>
+    <div id="fastrack_ess">
+        <div><img src="https://www.fastrack.in/wps/wcm/connect/fastrack/8a1eedd8-8476-4d71-a42f-632a2a6bcffd/7.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-8a1eedd8-8476-4d71-a42f-632a2a6bcffd-nU9-ENb" alt="">
+        <h6>GIRLS WATCHES</h6></div>
+        <div><img src="https://www.fastrack.in/wps/wcm/connect/fastrack/6e38b5bd-21b4-4d14-8ada-c3dc004bbc80/4.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-6e38b5bd-21b4-4d14-8ada-c3dc004bbc80-nU9-KWG" alt="">
+        <h6>GUYS WATCHES</h6></div>
+        <div><img src="https://www.fastrack.in/wps/wcm/connect/fastrack/4002eb2c-02e0-4bce-9bbb-bff5e2fee046/smartwatch.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-4002eb2c-02e0-4bce-9bbb-bff5e2fee046-o4jJeB9" alt="">
+        <h6>SMART WATCHES</h6></div>
+        <div><img src="https://www.fastrack.in/wps/wcm/connect/fastrack/29fbd030-f033-4872-a93c-c4175c0fcd48/TWE.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-29fbd030-f033-4872-a93c-c4175c0fcd48-nZTz2h0" alt="">
+        <h6>EARPHONES</h6></div>
+        <div><img src="https://www.fastrack.in/wps/wcm/connect/fastrack/3ce39dd7-a409-41f5-ae5c-2784b57b583a/1.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-3ce39dd7-a409-41f5-ae5c-2784b57b583a-nU9-T4C" alt="">
+        <h6>BAGS</h6></div>
+        <div><img src="https://www.fastrack.in/wps/wcm/connect/fastrack/38e52148-7eb0-41ca-9be7-6e822ad81622/essential_sunglasses2.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-38e52148-7eb0-41ca-9be7-6e822ad81622-nmj4faZ" alt="">
+        <h6>PERFUME</h6></div>
+        <div><img src="https://www.fastrack.in/wps/wcm/connect/fastrack/be399320-debc-4bbb-8b83-4e14ce903bbf/B0398LBR02.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-be399320-debc-4bbb-8b83-4e14ce903bbf-nmj1K2I" alt="">
+        <h6>ACCESSORIES</h6></div>
+        <div><img src="https://www.fastrack.in/wps/wcm/connect/fastrack/55c52d49-bdc5-448e-9555-d727115a93c9/mask.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-55c52d49-bdc5-448e-9555-d727115a93c9-nUa4Ekl" alt="">
+        <h6>FACE MASKS</h6></div>
+
+    </div>
+    <h1>TRENDING PRODUCTS</h1>
+    <div id="itemlist"></div>
+    <div id="bottombar"></div>
+</body>
+</html>
+<script src="./script/index.js" type="module"></script>
